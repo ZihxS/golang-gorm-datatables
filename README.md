@@ -65,7 +65,9 @@ func main() {
 ## More Example & Documentation
 
 You can visit this link to see more example and documentation:
-- Documentation: ?
+- Documentation:
+  - Golang Packages Website: https://pkg.go.dev/github.com/ZihxS/golang-gorm-datatables
+  - Our Documentation Website: ?
 - Example on Server Side: ?
 - Example on Client Side: ?
 
