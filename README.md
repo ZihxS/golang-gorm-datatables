@@ -116,7 +116,7 @@ The Request package is licensed under the MIT License.
 
 ## Contributors
 
-<a href="https://github.com/github.com/ZihxS/graphs/contributors">
+<a href="https://github.com/ZihxS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=github.com/ZihxS" />
 </a>
 
