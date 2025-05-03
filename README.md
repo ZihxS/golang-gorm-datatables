@@ -71,6 +71,16 @@ You can visit this link to see more example and documentation:
 - Example on Server Side: ?
 - Example on Client Side: ?
 
+## Roadmap to v1
+
+[ ] Create Example on Server Side
+[ ] Create Example on Client Side
+[ ] Create Own Documentation Website
+[ ] Add slice or array format for datatables response.
+[ ] Well proper for all possible complex queries.
+[ ] Better performance and memory allocation.
+[ ] Support for datatables exporting.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the Request package, please follow these steps:
