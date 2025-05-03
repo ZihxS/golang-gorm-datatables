@@ -116,7 +116,7 @@ The Request package is licensed under the MIT License.
 
 ## Contributors
 
-<a href="https://github.com/ZihxS/graphs/contributors">
+<a href="https://github.com/ZihxS/golang-gorm-datatables/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=ZihxS/golang-gorm-datatables" />
 </a>
 
