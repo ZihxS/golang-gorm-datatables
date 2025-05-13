@@ -23,7 +23,7 @@ package main
 import (
   // ...
 
-  "github.com/ZihxS/golang-gorm-datatables" // [FOCUS HERE]
+  dt "github.com/ZihxS/golang-gorm-datatables" // [FOCUS HERE]
 
   // ...
 )
@@ -41,14 +41,14 @@ func main() {
 
   // example using mux router
   r.HandleFunc("/users", func(w http.ResponseWriter, r *http.Request) {
-    req, err := datatables.ParseRequest(r) // parse the request [FOCUS HERE]
+    req, err := dt.ParseRequest(r) // parse the request [FOCUS HERE]
     if err != nil {
       http.Error(w, fmt.Sprintf("Error processing request: %v", err), http.StatusInternalServerError)
       return
     }
 
     tx := db.Model(&User{}) // gorm query [FOCUS HERE]
-    response, err := datatables.New(tx).Req(*req).Make() // make datatables [FOCUS HERE]
+    response, err := dt.New(tx).Req(*req).Make() // make datatables [FOCUS HERE]
     if err != nil {
       http.Error(w, fmt.Sprintf("Error processing request: %v", err), http.StatusInternalServerError)
       return
@@ -67,7 +67,7 @@ func main() {
 You can visit this link to see more example and documentation:
 - Documentation:
   - Golang Packages Website: https://pkg.go.dev/github.com/ZihxS/golang-gorm-datatables
-  - Our Documentation Website: ?
+  - Our Documentation Website: (WIP: https://github.com/ZihxS/golang-gorm-datatables-docs)
 - Example on Server Side: https://github.com/ZihxS/golang-gorm-datatables-be-examples
 - Example on Client Side: https://github.com/ZihxS/golang-gorm-datatables-fe-examples
 
